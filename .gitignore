@@ -1,0 +1,6 @@
+venv/*
+mypy.ini
+.mypy_cache
+raylib_example.py
+*.pyc
+__pycache__/

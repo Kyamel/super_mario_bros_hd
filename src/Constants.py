@@ -1,0 +1,41 @@
+# FPS settings
+FPS = 60
+ZOOM = 4
+FRAME_DURATION = 1000 // FPS  # divisão inteira
+
+# SNES resolution
+SNES_RESOLUTION_WIDTH = 256
+SNES_RESOLUTION_HEIGHT = 224
+
+# Tile settings
+TILE_SIZE = 16
+DEFAULT_MAP_WIDTH = 230
+DEFAULT_MAP_HEIGHT = 14
+
+# Sky color (RGB)
+SKY_RED = 90
+SKY_GREEN = 147
+SKY_BLUE = 254
+
+# Intro screen time (in frames)
+INTRO_SCREEN_TIME = 130
+
+# Camera settings
+EDITOR_CAMERA_PAN_SPEED = 3
+CAMERA_WORLD_OFFSET = 4 * TILE_SIZE  # 4 tiles off camera
+
+# Physics
+GRAVITY = 0.040
+FRICTION = 0.94
+MAX_SPEED_X = 3.0
+MAX_SPEED_Y = 3.0
+
+# Mario specific physics
+MARIO_ACCELERATION_X = 0.08
+MARIO_JUMP_ACCELERATION = 0.9
+MARIO_BOUNCE = 4.0  # when jumping on top of enemies
+TILE_ROUNDNESS = 4
+
+# Mushroom settings
+MUSHROOM_GROW_SPEED = 0.25
+MUSHROOM_MOVE_SPEED = 0.8
